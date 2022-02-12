@@ -1,8 +1,10 @@
+title: README
+
 # myrepo
 reteaching myself rstudio basics for funzies
 
 ## 1: set up, refamiliarizing, markdown, and github basics
-### file notes: 'day one basics.Rmd'
+### file notes: 'day one basics.Rmd' feb 11, '22
 
 library(rmarkdown)
 
@@ -10,7 +12,7 @@ Opened RMarkdown file
 
 file -> New File -> R Markdown
 
-this is so silly I should be able to understand something this basic but I'm just trying to figure out how to make honest to god plain text in a Markdown file that shows up when I run it and I don't know what I am doing wrong. 
+> this is so silly I should be able to understand something this basic but I'm just trying to figure out how to make honest to god plain text in a Markdown file that shows up when I run it and I don't know what I am doing wrong. 
 
 Plain type returns plain type check
 
@@ -24,7 +26,7 @@ Rmd saved under name 'day one basics.Rmd' in file folder R -> Learning
 
 what is a markup language? similar to html like editing source in tumblr blog source code? Markdown is used for readability "no tags necessary" so interesting 
 
-pause to mess with GitHub. also fuck github and programmers for not understanding that basics mean, 'explain what a file even is' for me
+> pause to mess with GitHub. also fuck github and programmers for not understanding that basics mean, 'explain what a file even is' for me
 
 started new repository on Github with a README.md file
 
@@ -40,7 +42,7 @@ installed packages from course site 'dplyr', 'tidyverse', 'rmarkdown', 'knitr', 
 
 code used was install.packages("package_name")
 
-ohmygod i found my shinyapp final project for the cfss class! added libraries for the app ('shiny', 'readr', 'RColorBrewer', 'rsconnect') and the URL https://eggst.shinyapps.io/Exoplanets/ but cannot get distracted by late game projects i can't work!
+> ohmygod i found my shinyapp final project for the cfss class! added libraries for the app ('shiny', 'readr', 'RColorBrewer', 'rsconnect') and the URL https://eggst.shinyapps.io/Exoplanets/ but cannot get distracted by late game projects i can't work!
 
 following the directions to setup R, RStudio, Github, and starting a git repository.
 
@@ -52,10 +54,23 @@ blue arrow is 'pull' -> bringing files from online in git to RStudio?
 
 green arrow is 'push' -> pushing my files to publish online?!
 
-authorizing and checking site: SUCCESS!!!!!!!
+> authorizing and checking site: SUCCESS!!!!!!!
 
 gonna try and make a new document in myrepo for this so i have separate files of notes? Unsure of this ability so will put multiple days under new headings. must remove my hashtags lmao. 
 
 I think plain text will be fine, and no code ran that wasn't in a line by itself (library('name')) ran but not (install.packages('package')) and no extra comment on the url but works when an html preview was made? 
 
 these notes don't look great in a long spiel like that but going further more code should break it up. 
+
+*notes on fa18_hw01 shows i don't need to commit the README.html since it can't be seen in github anyway.*
+
+### hw_01 electric bugaloo
+
+A picture of ME! Not really but the vibes are there. 
+![alt text](/Users/emigs/Pictures/Pics/Saved Pictures/mushrooms.png)
+
+- **I am**
+  - *overwhelmingly* annoying
+  - distressingly depressed 
+  - phenomenally lazy
+  - and an all around confidently assured half-wit with the sense of humor of a lounge chair on the Titanic. :grimacing:
