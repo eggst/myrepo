@@ -1,4 +1,61 @@
 # myrepo
 reteaching myself rstudio basics for funzies
 
-This is a line from RStudio. Testing if it shows up on github
+## 1: set up, refamiliarizing, markdown, and github basics
+### file notes: 'day one basics.Rmd'
+
+library(rmarkdown)
+
+Opened RMarkdown file
+
+file -> New File -> R Markdown
+
+this is so silly I should be able to understand something this basic but I'm just trying to figure out how to make honest to god plain text in a Markdown file that shows up when I run it and I don't know what I am doing wrong. 
+
+Plain type returns plain type check
+
+unexpected symbol error at beginning of plain type line. one hashtag necessary to indicate comment?
+
+hashtag test seems to confirm this. Readings would have me to believe that hashtags signify a heading so next test is multiple hashtags.
+
+no visible difference in console panel, however no error message for multiple hashtags either, returned to lines adding a single hashtag to plain text comments for consistency and spaces for clarity. 
+
+Rmd saved under name 'day one basics.Rmd' in file folder R -> Learning
+
+what is a markup language? similar to html like editing source in tumblr blog source code? Markdown is used for readability "no tags necessary" so interesting 
+
+pause to mess with GitHub. also fuck github and programmers for not understanding that basics mean, 'explain what a file even is' for me
+
+started new repository on Github with a README.md file
+
+uploaded new 'one day basics.Rmd' file. Text is still blue with hashtag showing at the beginning of each line so am not sure this is how markdown works? 
+
+added library(rmarkdown) to file and will retest
+
+can edit markdown files directly on Github interface but trying to update an existing file 'push' or 'commit' a new file to a git repository.
+
+cfss uchicago class site has a setup tab to help make sure set up is complete. will read and return hopefully more confident.
+
+installed packages from course site 'dplyr', 'tidyverse', 'rmarkdown', 'knitr', 'gapminder', 'tidytext', 'devtools', 'usethis'
+
+code used was install.packages("package_name")
+
+ohmygod i found my shinyapp final project for the cfss class! added libraries for the app ('shiny', 'readr', 'RColorBrewer', 'rsconnect') and the URL https://eggst.shinyapps.io/Exoplanets/ but cannot get distracted by late game projects i can't work!
+
+following the directions to setup R, RStudio, Github, and starting a git repository.
+
+tested committing to github twice once setup complete. using right-top pane, selecting files to commit.
+
+part 2 is to 'pull'/'push' the commits so they actually show up online.
+
+blue arrow is 'pull' -> bringing files from online in git to RStudio?
+
+green arrow is 'push' -> pushing my files to publish online?!
+
+authorizing and checking site: SUCCESS!!!!!!!
+
+gonna try and make a new document in myrepo for this so i have separate files of notes? Unsure of this ability so will put multiple days under new headings. must remove my hashtags lmao. 
+
+I think plain text will be fine, and no code ran that wasn't in a line by itself (library('name')) ran but not (install.packages('package')) and no extra comment on the url but works when an html preview was made? 
+
+these notes don't look great in a long spiel like that but going further more code should break it up. 
